@@ -8,6 +8,7 @@ Data was logged, sometimes untill the alarm sounded. The lid was then lifted, th
 
 ```
 (bytes rx'd or ss if a 'short packet' was recieved) [ the bytes ] timestamp notes
+this data is from a run where the alarm sounded, and went out when fresh air was introduced.
 
 (41) [42 f6 f6 f6 f6 eb 35 fb fb f6 f6 f6 f6 fb f6 f6 f6 f6 7b 96 f6 eb 16 f6 fb f6 f6 fb d6 f6 eb f6 f6 f3 f6 f6 f6 56 a8 0f 00 ] 1643053121.1574323
 (41) [42 f6 f6 f6 f6 eb 35 fb fb f6 f6 f6 f6 fb f6 f6 f6 f6 7b 96 f6 eb 16 f6 fb f6 f6 fb d6 f6 eb f6 f6 f3 f6 f6 f6 56 a8 0f 00 ] 1643053123.6548433
