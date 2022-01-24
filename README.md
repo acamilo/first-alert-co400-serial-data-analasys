@@ -1,6 +1,10 @@
 # first-alert-co400-serial-data-analasys
 Serial data logged from a serial port on a firstalert co400 co detector.
 
+![ICSP-serial](serial-port.jpg)
+
+![pins-accessable-from-battery-port](pins-on-back.jpg)
+
 # Experiment
 A small piece of tissue paper was wrapped so it would burn slowly and placed in a large metal pot with the sensor and a tight fitting lid.
 Data was logged, sometimes untill the alarm sounded. The lid was then lifted, the smoldering paper extinguished, and a fan was used to blow fresh air onto the sensor.
