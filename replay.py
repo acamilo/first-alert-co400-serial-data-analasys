@@ -42,11 +42,13 @@ with open(sys.argv[1], 'rb') as f:
     for d in data:
         x=d[1]
         t=d[0]
+        # Packets SEEM to be 41 bytes and start with 42
         if len(x)== 41:
                 if prev == None:
                     prev=x
                 print("(%s) ["%(len(x)),end = '')
                 for idx in range(len(x)):
+                    # Hilight changed bytes in red
                     if prev[idx] != x[idx]:
                         print(bcolors.FAIL,end = '')
                     print("%0.2x "%(x[idx]),end = '')
@@ -57,6 +59,8 @@ with open(sys.argv[1], 'rb') as f:
                     print(" %s"%(noteh[str(t)]),end='')
                 print()
                 prev=x
+        # Sometimes the serial port times out and we get 0 bytes
+        # Sometimes we get a "short packet"
         elif len(x) != 0:
                 print("(ss) [",end='')
                 for idx in range(len(x)):
