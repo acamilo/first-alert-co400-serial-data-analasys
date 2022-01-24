@@ -1,0 +1,8 @@
+1643053132.0032039	lit
+1643053152.9250538	numbers start to change
+1643053176.3073514	numbers start to change
+1643053291.588421	alarm sounds around here
+1643053489.0992901	lid removed
+1643053526.2263958	vent fan
+1643053648.9566703	alarm stops
+1643053786.3193715	data looks like it does when idle
