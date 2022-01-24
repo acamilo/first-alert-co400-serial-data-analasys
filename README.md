@@ -7,6 +7,8 @@ Data was logged, sometimes untill the alarm sounded. The lid was then lifted, th
 
 
 ```
+(bytes rx'd or ss if a 'short packet' was recieved) [ the bytes ] timestamp notes
+
 (41) [42 f6 f6 f6 f6 eb 35 fb fb f6 f6 f6 f6 fb f6 f6 f6 f6 7b 96 f6 eb 16 f6 fb f6 f6 fb d6 f6 eb f6 f6 f3 f6 f6 f6 56 a8 0f 00 ] 1643053121.1574323
 (41) [42 f6 f6 f6 f6 eb 35 fb fb f6 f6 f6 f6 fb f6 f6 f6 f6 7b 96 f6 eb 16 f6 fb f6 f6 fb d6 f6 eb f6 f6 f3 f6 f6 f6 56 a8 0f 00 ] 1643053123.6548433
 (41) [42 f6 f6 f6 f6 eb 35 fb fb f6 f6 f6 f6 fb f6 f6 f6 f6 7b 96 f6 eb 16 f6 fb f6 f6 fb d6 f6 eb f6 f6 f3 f6 f6 f6 56 00 0f 00 ] 1643053125.7400794
