@@ -25,7 +25,7 @@ if len(sys.argv)==1:
 print("opening '%s' "%(sys.argv[1]))
 notes = None
 
-
+noteh = {}
 if len(sys.argv)==3:
     print("Loading Notes")
     nf = open(sys.argv[2], 'r')
